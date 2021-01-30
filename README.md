@@ -2,7 +2,7 @@
 
 ## What is InterpidKey?
 
-  InterpidKey is random password generator for impossible-to-crack passwords, which are complex with multiple types of characters (numbers, letters, and symbols). It keeps you safe from most password-hacking methods, such as by social engineering, brute force, dictionary attack method, etc. and keep your online accounts safe.
+  InterpidKey is **random password generator** for impossible-to-crack passwords, which are complex with multiple types of characters (numbers, letters, and symbols). It keeps you safe from most password-hacking methods, such as by social engineering, brute force, dictionary attack method, etc. and keep your online accounts safe.
 
 ### Functionalities to be added:
   - Javascript for generating random small alphabets.
