@@ -1,4 +1,4 @@
-# InterpidKey 
+<img src="logo.png" width="80" height="80">
 
 ## What is InterpidKey?
 
