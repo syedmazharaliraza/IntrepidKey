@@ -3,6 +3,8 @@
 ## What is InterpidKey?
 
   **InterpidKey** is <ins>**random password generator**</ins> for generating impossible-to-crack passwords, which are complex with multiple types of characters (numbers, letters, and symbols). It keeps you safe from most password-hacking methods, such as by social engineering, brute force, dictionary attack method, etc. and keep your online accounts safe.
+  Using complex and unique passwords can largely minimise such kinds of hacking.<br>
+  ### InterpidKey has the vision to create a platform where user can generate and save their passwords
 
 ### Functionalities to be added:
   - Javascript for generating random small alphabets.
@@ -10,7 +12,7 @@
   - Javascript for generating random alphabets with numbers.
   - Javascript for generating random alphabets with symbols.
   - Functionality to copy and refresh.
-  - Functionality to email generated password.
+  - Functionality to email generated password to the user.
   - UI fix (header, footer, themes, etc.) and many more!<br>
   
 If you wish to add more features/functionalities, discuss the issue either on [discord server](https://discord.gg/eKV4Mrcj) or under discussion tab.
