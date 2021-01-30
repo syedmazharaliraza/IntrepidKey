@@ -9,7 +9,9 @@
   - Javascript for generating random alphabets with capitals.
   - Javascript for generating random alphabets with numbers.
   - Javascript for generating random alphabets with symbols.
+  - Functionality to copy and refresh.
   - UI fix (header, footer, themes, etc.) and many more!
+  - Functionality to email generated password.
 
 ### TechStack
 
