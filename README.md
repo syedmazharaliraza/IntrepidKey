@@ -11,13 +11,16 @@
   - Javascript for generating random alphabets with symbols.
   - Functionality to copy and refresh.
   - Functionality to email generated password.
-  - UI fix (header, footer, themes, etc.) and many more!
-
+  - UI fix (header, footer, themes, etc.) and many more!<br>
+  
+If you wish to add more features/functionalities, discuss the issue either on [discord server](https://discord.gg/eKV4Mrcj) or under discussion tab.
 ### TechStack
 
 * HTML 
 * CSS
 * JAVASCRIPT
+
+#### Discord server for contributors: https://discord.gg/eKV4Mrcj
 
 
 
