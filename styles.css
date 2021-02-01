@@ -16,18 +16,17 @@ body {
   border-radius: 5px;
   border: 2px solid black;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
 .form {
   display: grid;
-  grid-template-columns: auto auto;
-  row-gap: 1rem;
-  column-gap: 3rem;
   justify-content: center;
   align-items: center;
+}
+label {
+  padding: 10px;
 }
 
 .title {
@@ -58,21 +57,21 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  word-break: break-all;
   border-radius: .5rem;
 }
 
 .button {
+  margin: 10px;
   grid-column: span 2;
   background-color: transparent;
   border: 2px solid white;
   color: white;
-  padding: .5rem 1rem;
+  padding: 10px 10px;
   font-weight: bold;
   cursor: pointer;
   border-radius: 1rem;
 }
 
-.btn:hover {
+.button:hover {
   background-color: #FFFFFF33;
 }
