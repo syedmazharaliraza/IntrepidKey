@@ -1,7 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
   background-size: 100% 100%;
-  margin: 0;
   color: white;
   min-height: 100vh;
   display: flex;
@@ -22,7 +21,6 @@ body {
 
 .form {
   display: grid;
-  justify-content: center;
   align-items: center;
 }
 label {
@@ -31,7 +29,6 @@ label {
 
 .title {
   margin: 0;
-  text-align: center;
 }
 
 label {
@@ -40,7 +37,6 @@ label {
 
 .charamountcont {
   display: flex;
-  align-items: center;
 }
 
 .numberinput {
