@@ -16,6 +16,7 @@ If you wish to add more features/functionalities, discuss the issue either on [d
 #### Discord server for contributors: https://discord.gg/eKV4Mrcj
 
 ## Contribution:
+#### If you don't have git on your machine, [install](https://help.github.com/articles/set-up-git/) it.
 
 **1.** Fork [this repository](https://github.com/syedmazharaliraza/IntrepidKey).
 
@@ -35,9 +36,9 @@ cd jwoc-archive
 git checkout -b YourBranchName
 ```
 
-**5.** Make changes in source code.
+**6.** Make changes in source code.
 
-**6.** Stage your changes and commit
+**7.** Stage your changes and commit
 
 ```bash
 git add .
@@ -46,13 +47,13 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-**7.** Push your local commits to the remote repo.
+**8.** Push your local commits to the remote repo.
 
 ```bash
 git push origin YourBranchName
 ```
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+**9.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
 
