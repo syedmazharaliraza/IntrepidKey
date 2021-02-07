@@ -23,13 +23,13 @@ If you wish to add more features/functionalities, discuss the issue either on [d
 **2.** Clone the forked repository.
 
 ```bash
-git clone https://github.com/<your-github-username>/jwoc-archive
+git clone https://github.com/<your-github-username>/intrepidkey
 ```
 
 **3.** Navigate to the project directory.
 
 ```bash
-cd jwoc-archive
+cd intrepidkey
 ```
 **5.** Create a new branch:
 ```bash
