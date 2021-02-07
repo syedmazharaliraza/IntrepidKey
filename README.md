@@ -15,5 +15,45 @@ If you wish to add more features/functionalities, discuss the issue either on [d
 
 #### Discord server for contributors: https://discord.gg/eKV4Mrcj
 
+## Contribution:
+
+**1.** Fork [this repository](https://github.com/syedmazharaliraza/IntrepidKey).
+
+**2.** Clone the forked repository.
+
+```bash
+git clone https://github.com/<your-github-username>/jwoc-archive
+```
+
+**3.** Navigate to the project directory.
+
+```bash
+cd jwoc-archive
+```
+**5.** Create a new branch:
+```bash
+git checkout -b YourBranchName
+```
+
+**5.** Make changes in source code.
+
+**6.** Stage your changes and commit
+
+```bash
+git add .
+```
+```bash
+git commit -m "<your_commit_message>"
+```
+
+**7.** Push your local commits to the remote repo.
+
+```bash
+git push origin YourBranchName
+```
+
+**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+
 
 
