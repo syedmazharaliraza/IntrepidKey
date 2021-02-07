@@ -6,14 +6,14 @@
   Using complex and unique passwords can largely minimise such kinds of hacking.<br>
   #### IntrepidKey has the vision to create a platform where user can generate and save their passwords, with no privacy issues and easy access to all saved passwords. 
   
-If you wish to add more features/functionalities, discuss the issue either on [discord server](https://discord.gg/eKV4Mrcj) or under discussion tab.
+If you wish to add more features/functionalities, discuss the issue either on [discord server](https://discord.gg/tskfCd9uuV) or under discussion tab.
 ### TechStack
 
 * HTML 
 * CSS
 * JAVASCRIPT
 
-#### Discord server for contributors: https://discord.gg/eKV4Mrcj
+#### Discord server for contributors: https://discord.gg/tskfCd9uuV
 
 ## Contribution:
 #### If you don't have git on your machine, [install](https://help.github.com/articles/set-up-git/) it.
