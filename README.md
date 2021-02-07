@@ -13,7 +13,7 @@ If you wish to add more features/functionalities, discuss the issue either on [d
 * CSS
 * JAVASCRIPT
 
-#### Discord server for contributors: https://discord.gg/tskfCd9uuV
+#### 📢Discord server for contributors: https://discord.gg/tskfCd9uuV
 
 ## Contribution:
 #### If you don't have git on your machine, [install](https://help.github.com/articles/set-up-git/) it.
