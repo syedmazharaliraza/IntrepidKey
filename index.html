@@ -2,38 +2,112 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="styles.css">
-  <title>Password Generator</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Password Generator with JavaScript</title>
 </head>
 
 <body>
-  <div class="container">
-    <h1 class="title">Password Generator</h1>
-    <h2 class="password"> Password</h2>
-    <form class="form">
-      <label for="charamount">Number Of Characters</label>
-      <div class="charamountcont">
-        <input type="range" min="1" max="50" value="10" >
-        <input class="numberinput" type="number" min="1" max="50" value="10">
-      </div>
-
-      <label for="uppercase">Include Uppercase</label>
-      <input type="checkbox" id="uppercase">
-
-      <label for="number">Include Numbers</label>
-      <input type="checkbox" id="number">
-
-      <label for="symbol">Include Symbols</label>
-      <input type="checkbox" id="symbol">
-
-      <button type="submit" class="button">Generate Password</button>
+    <form id="passwordGeneratorForm">
+        <div class="container">
+            <h1>Password Generator</h1>
+            <div class="result__container">
+                <span id="result"></span>
+                <button id="copy">Copy</button>
+            </div>
+            <div class="options">
+                <div class="option">
+                    <label for="charamountcont">Length</label>
+                    <input type="number" id="length" min="4" max="20" value="10">
+                </div>
+                <div class="option">
+                    <label>Include Uppercase</label>
+                    <input type="checkbox" id="uppercase" checked>
+                </div>
+                <div class="option">
+                    <label>Include Numbers</label>
+                    <input type="checkbox" id="numbers" checked>
+                </div>
+                <div class="option">
+                    <label>Include Symbols</label>
+                    <input type="checkbox" id="symbols" checked>
+                </div>
+            </div>
+            <button class="btn" id="generate" type="submit">Generate Password</button>
+        </div>
     </form>
-  </div>
+    <script>
+const resultDOM = document.getElementById('result');
+const copybtnDOM = document.getElementById('copy');
+const lengthDOM = document.getElementById('length');
+const uppercaseDOM = document.getElementById('uppercase');
+const numbersDOM = document.getElementById('numbers');
+const symbolsDOM = document.getElementById('symbols');
+const generatebtn = document.getElementById('generate');
+const form = document.getElementById('passwordGeneratorForm');
+const UPPERCASE_CODES = arrayFromLowToHigh(65, 90);
+const LOWERCASE_CODES = arrayFromLowToHigh(97, 122);
+const NUMBER_CODES = arrayFromLowToHigh(48, 57);
+const SYMBOL_CODES = arrayFromLowToHigh(33, 47)
+  .concat(arrayFromLowToHigh(58, 64))
+  .concat(arrayFromLowToHigh(91, 96))
+  .concat(arrayFromLowToHigh(123, 126));
+copybtnDOM.addEventListener('click', () => {
+  const textarea = document.createElement('textarea');
+  const passwordToCopy = resultDOM.innerText;
+  if (!passwordToCopy) return;
+  textarea.value = passwordToCopy;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  textarea.remove();
+  alert('Password Copied to Clipboard');
+});
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const characterAmount = lengthDOM.value;
+  const includeUppercase = uppercaseDOM.checked;
+  const includeNumbers = numbersDOM.checked;
+  const includeSymbols = symbolsDOM.checked;
+  const password = generatePassword(
+    characterAmount,
+    includeUppercase,
+    includeNumbers,
+    includeSymbols
+  );
+  resultDOM.innerText = password;
+});
+let generatePassword = (
+  characterAmount,
+  includeUppercase,
+  includeNumbers,
+  includeSymbols
+) => {
+  let charCodes = LOWERCASE_CODES;
+  if (includeUppercase) charCodes = charCodes.concat(UPPERCASE_CODES);
+  if (includeSymbols) charCodes = charCodes.concat(SYMBOL_CODES);
+  if (includeNumbers) charCodes = charCodes.concat(NUMBER_CODES);
+  const passwordCharacters = [];
+  for (let i = 0; i < characterAmount; i++) {
+    const characterCode =
+      charCodes[Math.floor(Math.random() * charCodes.length)];
+    passwordCharacters.push(String.fromCharCode(characterCode));
+  }
+  return passwordCharacters.join('');
+};
+function arrayFromLowToHigh(low, high) {
+  const array = [];
+  for (let i = low; i <= high; i++) {
+    array.push(i);
+  }
+  return array;
+}
+
+    </script>
 </body>
 
 </html>
