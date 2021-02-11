@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" href="./img/logo.png">
-
-    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <title>Password Generator with JavaScript</title>
-</head>
-
-<body>
-    <form id="passwordGeneratorForm">
-        <div class="container">
-            <h1>Password Generator</h1>
-            <div class="result__container">
-                <span id="result"></span>
-                <button id="copy">Copy</button>
-            </div>
-            <div class="options">
-                <div class="option">
-                    <label for="charamountcont">Length</label>
-                    <input type="number" id="length" min="4" max="20" value="10">
-                </div>
-                <div class="option">
-                    <label>Include Uppercase</label>
-                    <input type="checkbox" id="uppercase" checked>
-                </div>
-                <div class="option">
-                    <label>Include Numbers</label>
-                    <input type="checkbox" id="numbers" checked>
-                </div>
-                <div class="option">
-                    <label>Include Symbols</label>
-                    <input type="checkbox" id="symbols" checked>
-                </div>
-            </div>
-            <button class="btn" id="generate" type="submit">Generate Password</button>
-        </div>
-    </form>
-    <script>
+<script>
 const resultDOM = document.getElementById('result');
 const copybtnDOM = document.getElementById('copy');
 const lengthDOM = document.getElementById('length');
@@ -109,6 +65,3 @@ function arrayFromLowToHigh(low, high) {
   return array;
 }
 </script>
-</body>
-
-</html>
