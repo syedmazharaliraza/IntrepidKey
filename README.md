@@ -16,7 +16,7 @@ If you wish to add more features/functionalities, discuss the issue either on [d
 #### 📢Discord server for contributors: https://discord.gg/tskfCd9uuV
 
 ## Contribution:
-#### If you don't have git on your machine, [install it.](https://help.github.com/articles/set-up-git/)
+#### If you don't have git on your machine, [install it.](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
 **1.** Fork [this repository](https://github.com/syedmazharaliraza/IntrepidKey).
 
