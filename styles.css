@@ -54,6 +54,7 @@ label {
   justify-content: center;
   align-items: center;
   border-radius: .5rem;
+  position: relative;
 }
 
 .button {
@@ -70,4 +71,12 @@ label {
 
 .button:hover {
   background-color: #FFFFFF33;
+}
+
+/* styling copy icon present beside generated password */
+#copy_icon{
+    position: absolute;
+  right: 5%;
+  color:gray;
+  font-size: 26px;
 }
