@@ -76,8 +76,8 @@ label {
 /* styling copy icon present beside generated password */
 #copy_icon{
     position: absolute;
-  right: 5%;
+  right: 3%;
   color:gray;
-  font-size: 26px;
+  font-size: 30px;
   cursor:pointer;
 }
