@@ -34,10 +34,24 @@
 
       <label for="symbol">Include Symbols</label>
       <input type="checkbox" id="symbol">
-
-      <button type="submit" class="button">Generate Password</button>
+      <div id="random".
+      <button type="submit" class="button" onclick="Generate_Password()">Generate Password</button>
+      </div>
     </form>
   </div>
+    <script type="text/javascript">
+        function Generate_Password(){
+        var chars = "abcdefghijklmnopqrstuvwxyz"
+        var length = 10;
+        var pass = "";
+        for(var i = 0;i < length;i++){
+          var random = Math.floor(Math.random() * chars.length);
+          pass += chars.substring(random, random + 1);
+        }
+
+        document.getElementById('random').innerHTML = pass;
+        }
+    </script>
 </body>
 
 </html>
