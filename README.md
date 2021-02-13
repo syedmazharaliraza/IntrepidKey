@@ -6,7 +6,7 @@
   Using complex and unique passwords can largely minimise such kinds of hacking.<br>
   #### IntrepidKey has the vision to create a platform where user can generate and save their passwords, with no privacy issues and easy access to all saved passwords.<br>
 
-  <img src="passgen.jpg"> <br>
+  <p align="center"> <img src="passgen.jpg" width="400" height="400"> </p> <br>
   
 If you wish to add more features/functionalities, discuss the issue either on [discord server](https://discord.gg/tskfCd9uuV) or under discussion tab.
 ### TechStack
