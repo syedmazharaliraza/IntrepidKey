@@ -1,4 +1,4 @@
-<img src="logo.png" width="80" height="80">
+<img src="./img/logo.png" width="80" height="80">
 
 ## What is IntrepidKey?
 
@@ -7,7 +7,7 @@
   #### IntrepidKey has the vision to create a platform where user can generate and save their passwords, with no privacy issues and easy access to all saved passwords.
   <br>
 
-  <p align="center"> <img src="passgen.jpg" width="400" height="400"> </p>
+  <p align="center"> <img src="./img/passgen.jpg" width="400" height="400"> </p>
   
 If you wish to add more features/functionalities, discuss the issue either on [discord server](https://discord.gg/tskfCd9uuV) or under discussion tab.
 ### TechStack
@@ -16,4 +16,5 @@ If you wish to add more features/functionalities, discuss the issue either on [d
 * CSS
 * JAVASCRIPT
 
-#### 📢Discord server for contributors: https://discord.gg/tskfCd9uuV
+#### 📢Discord server for contribut
+ors: https://discord.gg/tskfCd9uuV
