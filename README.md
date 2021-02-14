@@ -16,5 +16,4 @@ If you wish to add more features/functionalities, discuss the issue either on [d
 * CSS
 * JAVASCRIPT
 
-#### 📢Discord server for contribut
-ors: https://discord.gg/tskfCd9uuV
+#### 📢Discord server for contributors: https://discord.gg/tskfCd9uuV
