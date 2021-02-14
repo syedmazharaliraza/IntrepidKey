@@ -43,7 +43,7 @@ label {
   width: 2rem;
 }
 
-.password {
+#password {
   background-color: white;
   color: black;
   padding: 1rem;

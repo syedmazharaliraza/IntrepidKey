@@ -16,7 +16,7 @@
 <body>
   <div class="container">
     <h1 class="title">Password Generator</h1>
-    <h2 class="password"> Password<i class="material-icons" id="copy_icon">
+    <h2 id="password"> Password<i class="material-icons" id="copy_icon">
         content_copy
       </i></h2>
     <form class="form">
@@ -29,29 +29,20 @@
       <label for="uppercase">Include Uppercase</label>
       <input type="checkbox" id="uppercase">
 
+      <label for="lowercase">Include Lowercase</label>
+      <input type="checkbox"  id="lowercase">
+
       <label for="number">Include Numbers</label>
       <input type="checkbox" id="number">
 
       <label for="symbol">Include Symbols</label>
       <input type="checkbox" id="symbol">
-      <div id="random".
-      <button type="submit" class="button" onclick="Generate_Password()">Generate Password</button>
-      </div>
+      
+      <button type="submit" class="button" >Generate Password</button>
+
     </form>
   </div>
-    <script type="text/javascript">
-        function Generate_Password(){
-        var chars = "abcdefghijklmnopqrstuvwxyz"
-        var length = 10;
-        var pass = "";
-        for(var i = 0;i < length;i++){
-          var random = Math.floor(Math.random() * chars.length);
-          pass += chars.substring(random, random + 1);
-        }
-
-        document.getElementById('random').innerHTML = pass;
-        }
-    </script>
+  <script src="Script.js"></script>
 </body>
 
 </html>
