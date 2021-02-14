@@ -8,6 +8,7 @@ body {
   align-items: center;
   font-family:'Montserrat', sans-serif;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -18,6 +19,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 10%;
 }
 
 .form {
@@ -104,9 +106,19 @@ footer{
   background: linear-gradient(to right, #8557d0 , #9d5aa5);
   position: fixed;
   bottom: 0;
+
 }
 .left{
   padding-left: 10%;
+  margin-bottom: 2%;
+}
+.left p{
+  margin-top: -5%;
+  font-size: 1.5rem;
+}
+.left img{
+  margin-left: 20%;
+  text-align: center;
 }
 .right{
   padding-right: 10%;
@@ -117,7 +129,7 @@ footer{
   text-align: center;
 }
 .middle{
-  padding-left: 20%;
+  padding-left: 10%;
   text-align: center;
 }
 
@@ -125,9 +137,31 @@ footer{
   width: 42%;
   height: 24%;
   text-align: center;
-  margin-bottom: 8%;
+}
+.right p{
+  padding-left: 10%;
+  margin-bottom: -2%;
+  padding-bottom: 0;
+  margin-left: 6%;
+}
+ul{
+  list-style-type: none;
 }
 
+
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -9%;
+  margin-right: 6%;
+}
+@media only screen and (max-width: 1140px){
+  .right p{
+    margin-left: 15%;
+  }
+}
 @media only screen and (max-width: 690px){
   footer{
     font-size: 0.8rem;
@@ -135,5 +169,12 @@ footer{
   }
   .middle{
     padding-left: 15%;
+  }
+
+  .left p{
+    font-size: 1.2rem;
+  }
+  .left img{
+    margin-left: 15%;
   }
 }
