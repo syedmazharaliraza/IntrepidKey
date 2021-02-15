@@ -138,17 +138,11 @@ footer{
   height: 24%;
   text-align: center;
 }
-.right p{
-  padding-left: 10%;
-  margin-bottom: -2%;
-  padding-bottom: 0;
-  margin-left: 6%;
-}
 ul{
   list-style-type: none;
 }
 
-
+.ul-left
 
 .flex{
   display: flex;
@@ -156,6 +150,10 @@ ul{
   justify-content: space-around;
   margin-top: -9%;
   margin-right: 6%;
+}
+
+i{
+  margin: 0px 10px 0px 10px;
 }
 @media only screen and (max-width: 1140px){
   .right p{
