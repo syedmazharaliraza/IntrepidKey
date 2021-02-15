@@ -5,3 +5,4 @@ document.addEventListener('DOMContentLoaded', (e) => {
         splash.classList.add("invisible")
     }, 1800)
 });
+

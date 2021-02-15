@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,9 +21,27 @@
   <div class="splash">
     <img class="fadein" src="img/logo.png">
   </div>
+<header>
+ <nav class="navbar">
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+    <div class="logo">
+      <img src="./img/logo.png">
+    </div>
+    <div class="navitems">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+ </nav>
+</header>
   <div class="container">
     <h1 class="title">Password Generator</h1>
-    <h2 class="password"> Password<i class="material-icons" id="copy_icon">
+    <h2 id="password"> Password<i class="material-icons" id="copy_icon">
         content_copy
       </i></h2>
     <form class="form">
@@ -34,6 +53,9 @@
 
       <label for="uppercase">Include Uppercase</label>
       <input type="checkbox" id="uppercase">
+
+      <label for="lowercase">Include Lowercase</label>
+      <input type="checkbox" checked id="lowercase">
 
       <label for="number">Include Numbers</label>
       <input type="checkbox" id="number">
@@ -63,6 +85,7 @@
         <a class="social" href="#"><i class="fa fa-envelope-square"></i></a>
         <a class="social" href="#"><i class="fa fa-twitter"></i></a>
       </div>
+    </div>
   </footer>
   <script src="js/Script.js"></script>
 </body>

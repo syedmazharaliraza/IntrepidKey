@@ -2,16 +2,76 @@ body {
   background-color: rgb(255, 255, 255);
   background-size: 100% 100%;
   color: white;
-  min-height: 100vh;
-  display: flex;
+  min-height: 100%;
   justify-content: center;
   align-items: center;
   font-family:'Montserrat', sans-serif;
   height: 100vh;
   overflow: hidden;
+  position: relative;
+  margin: 0px 0px;
 }
+.navbar{
+  background: linear-gradient(to right, #8557d0 , #9d5aa5);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.logo  img{
+  width: 75px;
+  height: 75px;
+  margin-top: 16%;
+  text-align: center;
+}
+.logo p{
+  margin-top: -5%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: -15%;
+}
+div.logo{
+  float: left;
+}
+nav ul{
+  float: right;
+  margin-right: 0px;
+  margin: 10px;
 
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+nav ul li a.active, nav ul li a:hover{
+  background: #1b9bff;
+  transition: 0.5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
 .container {
+  margin: auto;
   background: linear-gradient(#b023c2 15%, #600be7);
   padding: 3rem;
   border-radius: 5px;
@@ -20,6 +80,10 @@ body {
   align-items: center;
   flex-direction: column;
   margin-bottom: 10%;
+  background-size: 100% 100%;
+  overflow: hidden;
+  width: 500px;
+  height: 600px;  
 }
 
 .form {
@@ -46,7 +110,7 @@ label {
   width: 2rem;
 }
 
-.password {
+#password {
   background-color: white;
   color: black;
   padding: 1rem;
@@ -104,7 +168,7 @@ footer{
   height: 18vh;
   margin-top: 10%;
   background: linear-gradient(to right, #8557d0 , #9d5aa5);
-  position: fixed;
+  position: absolute;
   bottom: 0;
 
 }
@@ -121,13 +185,14 @@ footer{
   text-align: center;
 }
 .right{
-  padding-right: 10%;
+  padding-right: 5%;
   text-align: center;
   padding-left: 8%;
+  margin-bottom: 2%;
 }
 .right p{
- font-size: 20px;
- margin: 5px;
+ font-size: 17px;
+ margin: 22px;
 
 }
 .center{
@@ -142,8 +207,6 @@ ul{
   list-style-type: none;
 }
 
-.ul-left
-
 .flex{
   display: flex;
   align-items: center;
@@ -152,7 +215,7 @@ ul{
   margin-right: 6%;
 }
 .social {
-  font-size: x-large;
+  font-size: large;
   text-decoration: none;
   color: white;
 }
@@ -163,6 +226,47 @@ ul{
 
 i{
   margin: 0px 10px 0px 10px;
+}
+@media (max-width :952px){
+  div.log{
+    font-size:30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width :858px)
+{
+  .checkbtn{
+    display: block;
+  }
+  .navitems{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: 0;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+    
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ .navitems{
+    left:0;
+  }
 }
 /*splash screen*/
 .splash{
@@ -180,7 +284,7 @@ i{
   
 }
 .splash img{
-  width: 10%;
+  width: 7%;
 }
 
 .splash.invisible{
