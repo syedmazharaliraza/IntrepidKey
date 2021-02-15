@@ -144,7 +144,7 @@ label {
 #copy_icon{
   position: absolute;
   right: 3%;
-  color: gray;
+  color: rgb(85, 85, 85);
   font-size: 30px;
   cursor: pointer;
 }
