@@ -142,11 +142,15 @@ label {
 
 /* styling copy icon present beside generated password */
 #copy_icon{
-    position: absolute;
+  position: absolute;
   right: 3%;
-  color:gray;
+  color: gray;
   font-size: 30px;
-  cursor:pointer;
+  cursor: pointer;
+}
+
+#copy_icon:hover{
+  color: rgb(167, 162, 162);
 }
 
 .left  img{
