@@ -157,6 +157,51 @@ ul{
   margin-top: -9%;
   margin-right: 6%;
 }
+/*splash screen*/
+.splash{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #8557d0 , #9d5aa5) ;
+  background-blend-mode:overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.splash img{
+  width: 10%;
+}
+
+.splash.invisible{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  height: 100vh;
+  width: 100%;
+  opacity: 0;
+  background: linear-gradient(to right, #8557d0 , #9d5aa5);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+@keyframes fadein{
+  to{
+    opacity: 1;
+  }
+}
+
+.fadein{
+  opacity: 0;
+  animation: fadein 1s ease-in forwards;
+}
+
 @media only screen and (max-width: 1140px){
   .right p{
     margin-left: 15%;
