@@ -1,4 +1,4 @@
-body {
+/*body {
   background-color: rgb(255, 255, 255);
   background-size: 100% 100%;
   color: white;
@@ -9,8 +9,67 @@ body {
   font-family:'Montserrat', sans-serif;
   height: 100vh;
   overflow: hidden;
+}*/
+.navbar{
+  background: linear-gradient(to right, #8557d0 , #9d5aa5);
+  height: 150px;
+  width: 100%;
+  margin-top: -350%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  
 }
+.logo  img{
+  width: 80px;
+  height: 80px;
+  margin-top: 30%;
+  text-align: center;
+}
+.logo p{
+  margin-top: -5%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: -15%;
+}
+div.logo{
+  float: left;
+}
+nav ul{
+  float: right;
+  margin-right: 0px;
 
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: 0.5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
 .container {
   background: linear-gradient(#b023c2 15%, #600be7);
   padding: 3rem;
@@ -20,6 +79,9 @@ body {
   align-items: center;
   flex-direction: column;
   margin-bottom: 10%;
+  background-size: 100% 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .form {
@@ -46,7 +108,7 @@ label {
   width: 2rem;
 }
 
-.password {
+#password {
   background-color: white;
   color: black;
   padding: 1rem;
@@ -156,6 +218,46 @@ ul{
   justify-content: space-around;
   margin-top: -9%;
   margin-right: 6%;
+}
+@media (max-width :952px){
+  div.log{
+    font-size:30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width :858px){
+  .checkbtn{
+    display: block;
+  }
+  .navitems{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: 0;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+    
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ .navitems{
+    left:0;
+  }
 }
 @media only screen and (max-width: 1140px){
   .right p{
