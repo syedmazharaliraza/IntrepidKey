@@ -13,7 +13,7 @@ body {
 }
 .navbar{
   background: linear-gradient(to right, #8557d0 , #9d5aa5);
-  height: 100px;
+  height: 95px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -70,7 +70,13 @@ nav ul li a.active, nav ul li a:hover{
 #check{
   display: none;
 }
+.main-body{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
 .container {
+  justify-content: center;
   margin: auto;
   background: linear-gradient(#b023c2 15%, #600be7);
   padding: 3rem;
@@ -79,11 +85,10 @@ nav ul li a.active, nav ul li a:hover{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 10%;
   background-size: 100% 100%;
   overflow: hidden;
-  width: 500px;
-  height: 600px;  
+  width: 420px;
+  height: 420px;  
 }
 
 .form {
@@ -169,10 +174,9 @@ footer{
   justify-content: space-around;
   margin: auto;
   align-items: center;
-  height: 18vh;
-  margin-top: 10%;
+  height: 16vh;
   background: linear-gradient(to right, #8557d0 , #9d5aa5);
-  position: absolute;
+  position: fixed;
   bottom: 0;
 
 }
