@@ -29,3 +29,11 @@ function  generatePassword(l, inipass) {
     }
     return pas;
 }
+
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+    setTimeout(function(){
+        popup.classList.remove("show");
+      },1000);
+  }
