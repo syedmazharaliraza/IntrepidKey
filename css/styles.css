@@ -106,7 +106,7 @@ label {
   display: flex;
 }
 
-.numberinput {
+#numberinput {
   width: 2rem;
 }
 
@@ -124,7 +124,7 @@ label {
   position: relative;
 }
 
-.button {
+#button {
   margin: 10px;
   grid-column: span 2;
   background-color: transparent;
@@ -136,7 +136,7 @@ label {
   border-radius: 1rem;
 }
 
-.button:hover {
+#button:hover {
   background-color: #FFFFFF33;
 }
 

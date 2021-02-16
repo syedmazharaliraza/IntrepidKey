@@ -45,17 +45,17 @@
         content_copy
       </i></h2>
     <form class="form">
-      <label for="charamount">Number Of Characters</label>
+      <label for="numberinput">Number Of Characters</label>
       <div class="charamountcont">
         <input type="range" min="1" max="50" value="10">
-        <input class="numberinput" type="number" min="1" max="50" value="10">
+        <input id="numberinput" type="number" min="1" max="50" value="10">
       </div>
 
       <label for="uppercase">Include Uppercase</label>
       <input type="checkbox" id="uppercase">
 
       <label for="lowercase">Include Lowercase</label>
-      <input type="checkbox" checked id="lowercase">
+      <input type="checkbox" checked id="lowercase"/>
 
       <label for="number">Include Numbers</label>
       <input type="checkbox" id="number">
@@ -63,7 +63,7 @@
       <label for="symbol">Include Symbols</label>
       <input type="checkbox" id="symbol">
 
-      <button type="submit" class="button">Generate Password</button>
+      <button type="button" id="button">Generate Password</button>
     </form>
   </div>
   <footer>
