@@ -84,6 +84,7 @@ nav ul li a.active, nav ul li a:hover{
   overflow: hidden;
   width: 500px;
   height: 600px;  
+  position: relative;
 }
 
 .form {
@@ -111,6 +112,8 @@ label {
 }
 
 #password {
+  font-size: 24px;
+  text-align: center;
   background-color: white;
   color: black;
   padding: 1rem;
@@ -143,7 +146,8 @@ label {
 /* styling copy icon present beside generated password */
 #copy_icon{
   position: absolute;
-  right: 3%;
+  right: 18%;
+  top: 15%;
   color: rgb(85, 85, 85);
   font-size: 30px;
   cursor: pointer;
