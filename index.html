@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Password Generator</title>
+  <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="splash">
+    <img class="fadein" src="img/logo.png">
+  </div>
+<header>
+ <nav class="navbar">
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+    <div class="logo">
+      <img src="./img/logo.png">
+    </div>
+    <div class="navitems">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+ </nav>
+</header>
+<div class="main-body">
+  <div class="container">
+    <h1 class="title">Password Generator</h1>
+    <input id="password" placeholder="Password"><i class="fa fa-clone" id="copy_icon" onclick="myFunction()">
+      <span class="popuptext" id="myPopup">Copied!</span>
+      </i>
+    <form class="form">
+      <label for="numberinput">Number Of Characters</label>
+      <div class="charamountcont">
+        <input type="range" min="1" max="50" value="10">
+        <input id="numberinput" type="number" min="1" max="25" value="10">
+      </div>
+
+      <label for="uppercase">Include Uppercase</label>
+      <input type="checkbox" id="uppercase">
+
+      <label for="lowercase">Include Lowercase</label>
+      <input type="checkbox" checked id="lowercase"/>
+
+      <label for="number">Include Numbers</label>
+      <input type="checkbox" id="number">
+
+      <label for="symbol">Include Symbols</label>
+      <input type="checkbox" id="symbol">
+
+      <button type="button" id="button">Generate Password</button>
+    </form>
+  </div>
+  </div>
+  <footer>
+    <div class="left">
+      <img src="./img/logo.png">
+      <p>IntrepidKey</p>
+    </div>
+    <div class="middle">
+      <p>Make impossible to crack passwords using IntrepidKey</p>
+      <p class="center">&copy; 2021 IntrepidKey</p>
+    </div>
+    <div class="right">
+      <p>Connect with Us</p>
+      <div class="flex">
+        <a class="social" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="social" href="#"><i class="fa fa-instagram"></i></a>
+        <a class="social" href="#"><i class="fa fa-github"></i></a>
+        <a class="social" href="#"><i class="fa fa-linkedin"></i></a>
+        <a class="social" href="#"><i class="fa fa-envelope-square"></i></a>
+        <a class="social" href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/Script.js"></script>
+</body>
+
+</html>
