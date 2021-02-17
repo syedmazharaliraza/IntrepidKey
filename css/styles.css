@@ -10,7 +10,6 @@ body {
   position: relative;
   margin: 0px 0px;
   padding-top:95px;
-  padding-bottom:16vh;
 }
 .navbar{
   position: fixed;
@@ -77,6 +76,7 @@ nav ul li a.active, nav ul li a:hover{
 .main-body{
   margin:10px;
   display:flex;
+  flex-direction: column;
   justify-content:center;
 }
 .container {
@@ -132,7 +132,7 @@ label {
   justify-content: center;
   align-items: center;
   border-radius: .5rem;
-  postion:relative;
+  position:relative;
 }
 
 #button {
@@ -154,7 +154,7 @@ label {
 /* styling copy icon present beside generated password */
 #copy_icon{
   position: absolute;
-  top: 23%;
+  top: 25%;
   left:58%;
   z-index: 1;
   display: inline-block;
@@ -232,12 +232,10 @@ footer{
   width: 100vw;
   display: flex;
   justify-content: space-around;
-  margin: auto;
+  margin-bottom: 0%;
   align-items: center;
   height: 18vh;
-  margin-top: 10%;
   background: linear-gradient(to right, #8557d0 , #9d5aa5);
-  position: fixed;
   z-index: 2;
   bottom: 0;
 
