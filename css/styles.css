@@ -93,6 +93,7 @@ nav ul li a.active, nav ul li a:hover{
   overflow: hidden;
   width: 450px;
   height: 450px;  
+  position: relative;
 }
 
 .form {
@@ -154,8 +155,8 @@ label {
 /* styling copy icon present beside generated password */
 #copy_icon{
   position: absolute;
-  top: 25%;
-  left:58%;
+  top: 19%;
+  left:75%;
   z-index: 1;
   display: inline-block;
   color: rgb(85, 85, 85);
@@ -229,7 +230,7 @@ label {
 }
 
 footer{
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   margin-bottom: 0%;
