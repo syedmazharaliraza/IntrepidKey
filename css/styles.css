@@ -165,7 +165,7 @@ label {
 /* The actual popup */
 #copy_icon .popuptext {
   visibility: hidden;
-  width: 160px;
+  width: 75px;
   background-color: #555;
   color: #fff;
   text-align: center;
@@ -175,7 +175,8 @@ label {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -40px;
+  font-size: 15px;
 }
 
 /* Popup arrow */
@@ -193,8 +194,8 @@ label {
 /* Toggle this class - hide and show the popup */
 #copy_icon .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 0.1s;
+  animation: fadeIn 0.1s;
 }
 
 /* Add animation (fade in the popup) */
