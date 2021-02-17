@@ -132,6 +132,7 @@ label {
   justify-content: center;
   align-items: center;
   border-radius: .5rem;
+  postion:relative;
 }
 
 #button {
@@ -153,8 +154,8 @@ label {
 /* styling copy icon present beside generated password */
 #copy_icon{
   position: absolute;
-  top: 215px;
-  left:850px;
+  top: 23%;
+  left:58%;
   z-index: 1;
   display: inline-block;
   color: rgb(85, 85, 85);
