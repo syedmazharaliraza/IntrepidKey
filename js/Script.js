@@ -37,3 +37,9 @@ function myFunction() {
         popup.classList.remove("show");
       },1000);
   }
+
+var slider=document.getElementById("slider");
+
+slider.oninput=function(){
+    len.value=slider.value;
+}
