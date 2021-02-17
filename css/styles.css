@@ -7,11 +7,14 @@ body {
   align-items: center;
   font-family:'Montserrat', sans-serif;
   height: 100vh;
-  overflow: hidden;
   position: relative;
   margin: 0px 0px;
+  padding-top:95px;
 }
 .navbar{
+  position: fixed;
+  z-index: 2;
+  top:0%;
   background: linear-gradient(to right, #8557d0 , #9d5aa5);
   height: 100px;
   width: 100%;
@@ -70,8 +73,14 @@ nav ul li a.active, nav ul li a:hover{
 #check{
   display: none;
 }
+.main-body{
+  margin:10px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+}
 .container {
-  margin: auto;
+  margin:0 auto;
   background: linear-gradient(#b023c2 15%, #600be7);
   padding: 3rem;
   border-radius: 5px;
@@ -82,9 +91,8 @@ nav ul li a.active, nav ul li a:hover{
   margin-bottom: 10%;
   background-size: 100% 100%;
   overflow: hidden;
-  width: 500px;
-  height: 600px;  
-  position: relative;
+  width: 450px;
+  height: 450px;  
 }
 
 .form {
@@ -124,7 +132,7 @@ label {
   justify-content: center;
   align-items: center;
   border-radius: .5rem;
-  position: relative;
+  position:relative;
 }
 
 #button {
@@ -146,9 +154,10 @@ label {
 /* styling copy icon present beside generated password */
 #copy_icon{
   position: absolute;
+  top: 25%;
+  left:58%;
+  z-index: 1;
   display: inline-block;
-  right: 18%;
-  top: 15%;
   color: rgb(85, 85, 85);
   font-size: 30px;
   cursor: pointer;
@@ -223,12 +232,11 @@ footer{
   width: 100vw;
   display: flex;
   justify-content: space-around;
-  margin: auto;
+  margin-bottom: 0%;
   align-items: center;
   height: 18vh;
-  margin-top: 10%;
   background: linear-gradient(to right, #8557d0 , #9d5aa5);
-  position: absolute;
+  z-index: 2;
   bottom: 0;
 
 }
