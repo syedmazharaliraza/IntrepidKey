@@ -29,3 +29,7 @@ function  generatePassword(l, inipass) {
     }
     return pas;
 }
+
+function responsive(){
+    let query = window.matchMedia("(max-width :952px)");
+}

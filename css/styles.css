@@ -1,3 +1,11 @@
+*{
+  padding: 0;
+  margin:0;
+  text-decoration:none;
+  list-style:none;
+  box-sizing:border-box;
+}
+
 body {
   background-color: rgb(255, 255, 255);
   background-size: 100% 100%;
@@ -11,6 +19,7 @@ body {
   position: relative;
   margin: 0px 0px;
 }
+
 .navbar{
   background: linear-gradient(to right, #8557d0 , #9d5aa5);
   height: 100px;
@@ -348,3 +357,4 @@ i{
     margin-left: 15%;
   }
 }
+
