@@ -1,3 +1,4 @@
+// Script for splash screen
 const splash = document.querySelector('.splash');
 
 document.addEventListener('DOMContentLoaded', (e) => {
@@ -6,6 +7,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     }, 1800)
 });
 
+// Script for generating only small alphabets password
 const empty = "";
 const lcase = "abcdefghijklmnopqrstuvwxyz";
 
@@ -30,6 +32,7 @@ function  generatePassword(l, inipass) {
     return pas;
 }
 
+// script for copied! popup
 function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
@@ -38,6 +41,7 @@ function myFunction() {
       },1000);
   }
 
+// Script for character amount slider 
 var slider=document.getElementById("slider");
 
 slider.oninput=function(){
