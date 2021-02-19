@@ -128,7 +128,7 @@ label {
   padding: 1rem;
   border: 1px solid #333;
   height: 2rem;
-  width: 350px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,7 +156,7 @@ label {
 #copy_icon{
   position: absolute;
   top: 19%;
-  left:75%;
+  left:80%;
   z-index: 1;
   display: inline-block;
   color: rgb(85, 85, 85);
