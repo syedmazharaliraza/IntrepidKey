@@ -24,9 +24,9 @@ submit.addEventListener('click', () => {
     pass.value = generatePassword(len.value, inipass)
 });
 
-function  generatePassword(l, inipass) {
+function generatePassword(l, inipass) {
     let pas = "";
-    for(let i = 0; i < l; i++){
+    for (let i = 0; i < l; i++) {
         pas += inipass.charAt(Math.floor(Math.random() * inipass.length));
     }
     return pas;
@@ -36,14 +36,14 @@ function  generatePassword(l, inipass) {
 function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
-    setTimeout(function(){
+    setTimeout(function () {
         popup.classList.remove("show");
-      },1000);
-  }
+    }, 1000);
+}
 
 // Script for character amount slider 
-var slider=document.getElementById("slider");
+var slider = document.getElementById("slider");
 
-slider.oninput=function(){
-    len.value=slider.value;
+slider.oninput = function () {
+    len.value = slider.value;
 }
