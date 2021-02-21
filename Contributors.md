@@ -1,6 +1,6 @@
 ## CONTRIBUTORS: 
 
-| Name                | Github ID                                                                  |  Good First Issue  |  Easy Issue  |  Medium Issue  |  Hard Issue  |  Total Points  |
+| Name                | Github ID                                                                  |  Good First Issue (50 points)  |  Easy Issue (100 points)  |  Medium Issue (200 points)  |  Hard Issue (500 points)  |  Total Points  |
 | -------------------- | -------------------------------------------------------------------------- | ---------------- | ---------- | ------------ | ---------- | ------ |
 |  Amit Kumar Mishra   | [https://github.com/Amit366](https://github.com/Amit366)                   |                  | 2          | 1            |            | 400    |
 |  Achyut Kumar Panda  | [https://github.com/Sloth-Panda](https://github.com/Sloth-Panda)           | 1                | 2          |              | 1          | 750    |
