@@ -37,6 +37,8 @@ function generatePassword(l, inipass) {
 
 // script for copied! popup
 function myFunction() {
+    pass.select();
+    document.execCommand("copy");
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
     setTimeout(function () {
