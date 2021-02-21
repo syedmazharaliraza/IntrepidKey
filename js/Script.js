@@ -31,6 +31,9 @@ function  generatePassword(l, inipass) {
 }
 
 function myFunction() {
+    var text = document.getElementById("password")
+    text.select();
+    document.execCommand("copy");
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
     setTimeout(function(){
