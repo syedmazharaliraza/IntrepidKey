@@ -7,9 +7,10 @@ document.addEventListener('DOMContentLoaded', (e) => {
     }, 1800)
 });
 
-// Script for generating symbols, numbers and small alphabets password
+// Script for generating symbols, numbers, uppercase alphabeta and small alphabets password
 const empty = "";
 const lcase = "abcdefghijklmnopqrstuvwxyz";
+const ucase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const sym = "!@#$%^&*(){}[],.;";
 const num = "0123456789";
 
@@ -19,6 +20,7 @@ const submit = document.getElementById("button");
 const pass = document.getElementById("password");
 const symbols = document.getElementById("symbol");
 const numbers = document.getElementById("number");
+const uppercase = document.getElementById("uppercase");
 
 submit.addEventListener('click', () => {
 
@@ -26,6 +28,7 @@ submit.addEventListener('click', () => {
     (lowcase.checked) ? inipass += lcase : "";
     (symbols.checked) ? inipass += sym : "";
     (numbers.checked) ? inipass += num : "";
+    (uppercase.checked) ? inipass += ucase : "";
 
     pass.value = generatePassword(len.value, inipass)
 });
