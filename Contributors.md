@@ -8,5 +8,5 @@
 |  Muthu Annamalai. V  | [https://github.com/muthuannamalai12](https://github.com/muthuannamalai12) | 1                | 1          |              |            | 150    |
 |  Nilisha Jaiswal     | [https://github.com/nilisha-jais](https://github.com/nilisha-jais)         | 1                |            |              |            | 50     |
 |  Deven Kapoor        | [https://github.com/Devenkapoor7303](https://github.com/Devenkapoor7303)   |                  | 1          |              |            | 100    |
-|  Pranab Prohit       | [https://github.com/pranabprohit](https://github.com/pranabprohit)         | 1                | 2          |              |            | 250    |
+|  Pranab Prohit       | [https://github.com/pranabprohit](https://github.com/pranabprohit)         | 1                | 3          |              |            | 350    |
 |  Amit Yadav          | [https://github.com/amit-y11](https://github.com/amit-y11)                 | 1                | 2          |              |            | 250    |
