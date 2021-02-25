@@ -346,6 +346,7 @@ i {
     position: fixed;
     width: 100%;
     height: 100vh;
+    background: linear-gradient(to right, #8557d0, #9d5aa5);
     top: 80px;
     left: 0;
     left: -100%;
