@@ -10,3 +10,4 @@
 |  Deven Kapoor        | [https://github.com/Devenkapoor7303](https://github.com/Devenkapoor7303)   |                  | 1          |              |            | 100    |
 |  Pranab Prohit       | [https://github.com/pranabprohit](https://github.com/pranabprohit)         | 1                | 3          |              |            | 350    |
 |  Amit Yadav          | [https://github.com/amit-y11](https://github.com/amit-y11)                 | 1                | 2          |              |            | 250    |
+|  Arbaz Alam          | [https://github.com/arbazalam01](https://github.com/arbazalam01)           |                  | 1          |              |            | 100    |
