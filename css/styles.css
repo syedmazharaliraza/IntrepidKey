@@ -345,13 +345,15 @@ i {
   .navitems {
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(to right, #8557d0, #9d5aa5);
     top: 80px;
     left: 0;
     left: -100%;
     text-align: center;
     transition: all .5s;
+    display: flex;
+    justify-content: center;
   }
   nav ul li {
     display: block;
