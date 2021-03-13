@@ -3,7 +3,7 @@
 | Name                | Github ID                                                                  |  Good First Issue (50 points)  |  Easy Issue (100 points)  |  Medium Issue (200 points)  |  Hard Issue (500 points)  |  Total Points  |
 | -------------------- | -------------------------------------------------------------------------- | ---------------- | ---------- | ------------ | ---------- | ------ |
 |  Achyut Kumar Panda  | [https://github.com/Sloth-Panda](https://github.com/Sloth-Panda)           | 1                | 2          |              | 1          | 750    |
-|  Pranab Prohit       | [https://github.com/pranabprohit](https://github.com/pranabprohit)         | 1                | 3          | 1            |            | 550    |
+|  Pranab Prohit       | [https://github.com/pranabprohit](https://github.com/pranabprohit)         | 1                | 4          | 1            |            | 650    |
 |  Amit Kumar Mishra   | [https://github.com/Amit366](https://github.com/Amit366)                   |                  | 2          | 1            |            | 400    |
 |  Amit Yadav          | [https://github.com/amit-y11](https://github.com/amit-y11)                 | 1                | 2          |              |            | 250    |
 |  Muthu Annamalai. V  | [https://github.com/muthuannamalai12](https://github.com/muthuannamalai12) | 1                | 1          |              |            | 150    |
