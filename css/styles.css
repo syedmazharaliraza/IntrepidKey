@@ -421,6 +421,7 @@ footer {
   background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
   z-index: 2;
   bottom: 0;
+  min-width: 540px;
 }
 
 .left {
