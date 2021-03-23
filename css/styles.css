@@ -111,6 +111,7 @@ input:checked + .slider:before {
 
 div.logo {
   float: left;
+  padding-right: 100px;
 }
 
 nav ul {
