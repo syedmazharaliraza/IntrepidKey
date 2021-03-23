@@ -9,5 +9,5 @@
 |  Muthu Annamalai. V  | [https://github.com/muthuannamalai12](https://github.com/muthuannamalai12) | 1                | 1          |              |            | 150    |
 |  Raghavendra Achar C | [https://github.com/Raghav14200](https://github.com/Raghav14200)           |                  | 1          |              |            | 100    |
 |  Deven Kapoor        | [https://github.com/Devenkapoor7303](https://github.com/Devenkapoor7303)   |                  | 1          |              |            | 100    |
-|  Arbaz Alam          | [https://github.com/arbazalam01](https://github.com/arbazalam01)           |                  | 1          |              |            | 100    |
+|  Arbaz Alam          | [https://github.com/arbazalam01](https://github.com/arbazalam01)           |                  | 2          |              |            | 200    |
 |  Nilisha Jaiswal     | [https://github.com/nilisha-jais](https://github.com/nilisha-jais)         | 1                |            |              |            | 50     |
