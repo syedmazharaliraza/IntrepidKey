@@ -219,7 +219,7 @@ label {
   position: relative;
 }
 
-#button {
+#button , #txt-button {
   margin: 10px;
   grid-column: span 2;
   background-color: transparent;
@@ -229,6 +229,10 @@ label {
   font-weight: bold;
   cursor: pointer;
   border-radius: 1rem;
+}
+
+#txt-button{
+  display: none;
 }
 
 #button:hover {
