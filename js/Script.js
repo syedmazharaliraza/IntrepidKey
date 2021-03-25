@@ -89,3 +89,26 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+// Script for saving password as a text file
+submit.addEventListener('click',()=>{
+    document.getElementById("txt-button").style.display='block'
+
+})
+
+function download(filename, text) {
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+    element.style.display = 'none';
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
+}
+// Start file download.
+document.getElementById("txt-button").addEventListener("click", function(){
+    var text = document.getElementById("password").value;
+    var filename = "password.txt";
+    
+    download(filename, text);
+}, false);
