@@ -4,7 +4,7 @@
 | -------------------- | -------------------------------------------------------------------------- | ---------------- | ---------- | ------------ | ---------- | ------ |
 |  Achyut Kumar Panda  | [https://github.com/Sloth-Panda](https://github.com/Sloth-Panda)           | 1                | 2          |              | 1          | 750    |
 |  Pranab Prohit       | [https://github.com/pranabprohit](https://github.com/pranabprohit)         | 2                | 4          | 1            |            | 700    |
-|  Amit Yadav          | [https://github.com/amit-y11](https://github.com/amit-y11)                 | 1                | 2          | 1            |            | 450    |
+|  Amit Yadav          | [https://github.com/amit-y11](https://github.com/amit-y11)                 | 1                | 3          | 1            |            | 550    |
 |  Amit Kumar Mishra   | [https://github.com/Amit366](https://github.com/Amit366)                   |                  | 2          | 1            |            | 400    |
 |  Muthu Annamalai. V  | [https://github.com/muthuannamalai12](https://github.com/muthuannamalai12) | 1                | 1          |              |            | 150    |
 |  Raghavendra Achar C | [https://github.com/Raghav14200](https://github.com/Raghav14200)           |                  | 1          |              |            | 100    |
