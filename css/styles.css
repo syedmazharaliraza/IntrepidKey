@@ -11,6 +11,22 @@
   --font-color:white;
 }
 
+h1 {
+  color: white;
+  font-size: 35px;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 17px;
+  text-align: right;
+  /*text-align:end;*/
+  padding-bottom: 50px;
+  padding-left: 475px;
+}
+
 body {
   background-color: var(--bg-color);
   background-size: 100% 100%;
@@ -27,10 +43,10 @@ body {
 /* Theme switch checkbox */
 .theme-checkbox {
   display: flex;
-  align-items: center;
+  align-items: left;
   position: fixed;
   top: 4%;
-  left:85%;
+  left:90%;
   z-index: 2;
 }
 .theme-switch {
@@ -91,7 +107,7 @@ input:checked + .slider:before {
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   margin: auto;
 }
 
@@ -111,7 +127,7 @@ input:checked + .slider:before {
 
 div.logo {
   float: left;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 
 nav ul {
