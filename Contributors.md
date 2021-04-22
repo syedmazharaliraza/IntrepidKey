@@ -1,4 +1,4 @@
-## CONTRIBUTORS: 
+## CrossWoC CONTRIBUTORS: 
 
 | Name                | Github ID                                                                  |  Good First Issue (50 points)  |  Easy Issue (100 points)  |  Medium Issue (200 points)  |  Hard Issue (500 points)  |  Total Points  |
 | -------------------- | -------------------------------------------------------------------------- | ---------------- | ---------- | ------------ | ---------- | ------ |
