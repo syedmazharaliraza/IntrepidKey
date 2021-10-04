@@ -160,7 +160,7 @@ nav ul li a:hover {
 }
 
 .main-body {
-  margin: 10px
+  margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -426,7 +426,7 @@ footer {
   justify-content: space-around;
   margin-bottom: 0%;
   align-items: center;
-  height: 18vh;
+
   background: linear-gradient(
     to right,
     var(--secondary-color),
@@ -434,7 +434,7 @@ footer {
   );
   z-index: 2;
   bottom: 0;
-  min-width: 540px;
+  min-width: 300px;
 }
 
 .left {
@@ -644,10 +644,28 @@ i {
     margin-left: 15%;
   }
 }
-@media (max-width:500px){
-  .container{
-    width:300px;
+@media (max-width: 500px) {
+  .container {
+    width: 180px;
     margin: 0 auto;
-    height:600px;
+    height: 600px;
+  }
+  footer {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+  }
+  .navbar {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+  }
+  #copy_icon {
+    top: 21%;
+  }
+  .slider.round {
+    margin-right: 25px;
   }
 }
