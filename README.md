@@ -15,5 +15,3 @@ If you wish to add more features/functionalities, discuss the issue either on [d
 * HTML 
 * CSS
 * JAVASCRIPT
-
-#### 📢Discord server for contributors: https://discord.gg/tskfCd9uuV
